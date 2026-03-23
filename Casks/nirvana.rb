@@ -3,7 +3,7 @@ cask "nirvana" do
   name "nirvana"
   desc "Nirvana Labs CLI"
   homepage "https://nirvanalabs.io"
-  version "0.29.1"
+  version "0.30.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "nirvana" do
   on_macos do
     on_intel do
       url "https://github.com/nirvana-labs/nirvana-cli/releases/download/v#{version}/nirvana_#{version}_macos_amd64.zip"
-      sha256 "ebe1de33457bd95dbfe5e77cd42ac90fc50e5cfcaacebfb1a632aa27321c02bb"
+      sha256 "3f82c8fc3b726a21843866f2b3a8b67e14561c8ac133a332ec2da28c627ac128"
     end
     on_arm do
       url "https://github.com/nirvana-labs/nirvana-cli/releases/download/v#{version}/nirvana_#{version}_macos_arm64.zip"
-      sha256 "b8f45673d7e76573d242934e63c2e1eeb088ec493f868d11b911b4af8e4377d7"
+      sha256 "f4397c55d559482e563c5636589e10eff1f35e68f4e20dbc8c457a23c18b9303"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nirvana-labs/nirvana-cli/releases/download/v#{version}/nirvana_#{version}_linux_amd64.tar.gz"
-      sha256 "8cdac711c2dfd4108269bb65ac910ad61256e3098c91fb76b34e42ac7921b4c2"
+      sha256 "f9b16fbbbc60e7c2cc01e1f821a8aad1dcf95e075d4ae3e4b62f3be2933fea26"
     end
     on_arm do
       url "https://github.com/nirvana-labs/nirvana-cli/releases/download/v#{version}/nirvana_#{version}_linux_arm64.tar.gz"
-      sha256 "f73b1156f9a3a8987caa8e7ca7ece12608d7b3580bf4087bec17278f1d4d0664"
+      sha256 "d36991c4d12ee0486de80d6a710e4cb8b7dedc06f84fe0d9207af7de9edb6063"
     end
   end
 
